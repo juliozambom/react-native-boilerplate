@@ -1,6 +1,6 @@
-import { Button } from "@/components/nativewindui/Button";
-import { Text } from "@/components/nativewindui/Text";
-import { ThemeToggle } from "@/components/nativewindui/ThemeToggle";
+import { Button } from "@/src/shared/components/nativewindui/Button";
+import { Text } from "@/src/shared/components/nativewindui/Text";
+import { ThemeToggle } from "@/src/shared/components/nativewindui/ThemeToggle";
 import { Linking, SafeAreaView, View } from "react-native";
 
 export default function Index() {

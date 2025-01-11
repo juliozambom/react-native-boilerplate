@@ -3,8 +3,11 @@ import "expo-dev-client";
 import { StatusBar } from "expo-status-bar";
 import { ThemeProvider as NavThemeProvider } from "@react-navigation/native";
 
-import { useColorScheme, useInitialAndroidBarSync } from "@/lib/useColorScheme";
-import { NAV_THEME } from "@/theme";
+import {
+  useColorScheme,
+  useInitialAndroidBarSync,
+} from "@/src/shared/lib/useColorScheme";
+import { NAV_THEME } from "@/src/shared/theme";
 import { Slot } from "expo-router";
 
 export {

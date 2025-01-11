@@ -9,10 +9,10 @@ import {
   ViewStyle,
 } from "react-native";
 
-import { TextClassContext } from "@/components/nativewindui/Text";
-import { cn } from "@/lib/cn";
-import { useColorScheme } from "@/lib/useColorScheme";
-import { COLORS } from "@/theme/colors";
+import { TextClassContext } from "@/src/shared/components/nativewindui/Text";
+import { cn } from "@/src/shared/lib/cn";
+import { useColorScheme } from "@/src/shared/lib/useColorScheme";
+import { COLORS } from "@/src/shared/theme/colors";
 
 const buttonVariants = cva("flex-row items-center justify-center gap-2", {
   variants: {

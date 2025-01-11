@@ -5,9 +5,9 @@ import Animated, {
   ZoomInRotate,
 } from "react-native-reanimated";
 
-import { cn } from "@/lib/cn";
-import { useColorScheme } from "@/lib/useColorScheme";
-import { COLORS } from "@/theme/colors";
+import { cn } from "@/src/shared/lib/cn";
+import { useColorScheme } from "@/src/shared/lib/useColorScheme";
+import { COLORS } from "@/src/shared/theme/colors";
 
 export function ThemeToggle() {
   const { colorScheme, setColorScheme } = useColorScheme();
