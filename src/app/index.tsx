@@ -1,11 +1,11 @@
-import { Button } from "@/src/shared/components/nativewindui/Button";
-import { Text } from "@/src/shared/components/nativewindui/Text";
-import { ThemeToggle } from "@/src/shared/components/nativewindui/ThemeToggle";
-import { Linking, SafeAreaView, View } from "react-native";
+import { Button } from '@/src/shared/components/nativewindui/Button';
+import { Text } from '@/src/shared/components/nativewindui/Text';
+import { ThemeToggle } from '@/src/shared/components/nativewindui/ThemeToggle';
+import { Linking, SafeAreaView, View } from 'react-native';
 
 export default function Index() {
   return (
-    <SafeAreaView className={"flex-1 bg-background justify-between"}>
+    <SafeAreaView className={'flex-1 bg-background justify-between'}>
       <View className="px-8 pt-8">
         <View className="header">
           <Text variant="title1" className="font-bold">
@@ -44,7 +44,7 @@ export default function Index() {
           variant="secondary"
           className="ios:border-foreground"
           onPress={() => {
-            Linking.openURL("https://github.com/juliozambom");
+            Linking.openURL('https://github.com/juliozambom');
           }}
         >
           <Text variant="title3" className="ios:color-foreground">

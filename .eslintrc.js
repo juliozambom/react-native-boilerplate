@@ -4,12 +4,12 @@ module.exports = {
   ignorePatterns: ['/dist/*'],
   plugins: ['react', 'react-hooks'],
   rules: {
-    'jsx-quotes': [2, 'prefer-double'],
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 1,
     'react/jsx-uses-vars': 2,
     'react/jsx-no-undef': 2,
     'react/prop-types': 0,
+    quotes: ['error', 'single', { allowTemplateLiterals: true }],
   },
   env: {
     es6: true,
