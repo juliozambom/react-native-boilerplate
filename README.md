@@ -1,50 +1,19 @@
-# Welcome to your Expo app 👋
+### O que este boilerplate oferece?
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este boilerplate foi criado utilizando as tecnologias mais recentes e práticas consolidadas:
 
-## Get started
+- **React Native (0.76.6)** e **Expo** para desenvolvimento mobile.
+- **NativeWind** e **NativeWindUI** para estilização eficiente e moderna.
+- **Prettier**, **ESLint** e **Husky** para garantir qualidade de código e padronização de commits.
 
-1. Install dependencies
+### Principais recursos:
 
-   ```bash
-   npm install
-   ```
+- **Regras bem definidas** de código e commits: impossibilita commits fora dos padrões configurados.
+- **Tema claro e escuro pré-definido** que pode ser facilmente customizado. Já inclui um hook para consumir o tema, facilitando sua implementação no projeto.
+- **Pronto para uso**: basta clonar, instalar as dependências e colocar sua ideia em prática.
 
-2. Start the app
+### Por que usar?
 
-   ```bash
-    npx expo start
-   ```
+Este boilerplate foi pensado para economizar seu tempo, deixando você focado no que realmente importa: criar seu produto. Não é apenas um ponto de partida, mas também uma base que promove boas práticas desde o início.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Estou aberto a sugestões e feedbacks! Ainda há funcionalidades que planejo adicionar, mas acredito que esta versão já será útil para muitos.
