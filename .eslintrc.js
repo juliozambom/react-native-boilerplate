@@ -10,6 +10,8 @@ module.exports = {
     'react/jsx-no-undef': 2,
     'react/prop-types': 0,
     quotes: ['error', 'single', { allowTemplateLiterals: true }],
+    'jsx-quotes': ['error', 'prefer-double'],
+    'react/jsx-curly-brace-presence': ['error'],
   },
   env: {
     es6: true,

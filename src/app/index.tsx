@@ -5,7 +5,7 @@ import { Linking, SafeAreaView, View } from 'react-native';
 
 export default function Index() {
   return (
-    <SafeAreaView className={'flex-1 bg-background justify-between'}>
+    <SafeAreaView className="flex-1 bg-background justify-between">
       <View className="px-8 pt-8">
         <View className="header">
           <Text variant="title1" className="font-bold">
