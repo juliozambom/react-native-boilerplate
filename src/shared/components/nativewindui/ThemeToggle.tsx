@@ -6,7 +6,7 @@ import Animated, {
 } from 'react-native-reanimated';
 
 import { cn } from '@/src/shared/lib/cn';
-import { useColorScheme } from '@/src/shared/lib/useColorScheme';
+import { useColorScheme } from '@/src/shared/hooks/useColorScheme';
 import { COLORS } from '@/src/shared/theme/colors';
 
 export function ThemeToggle() {

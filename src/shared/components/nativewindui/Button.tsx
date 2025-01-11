@@ -11,7 +11,7 @@ import {
 
 import { TextClassContext } from '@/src/shared/components/nativewindui/Text';
 import { cn } from '@/src/shared/lib/cn';
-import { useColorScheme } from '@/src/shared/lib/useColorScheme';
+import { useColorScheme } from '@/src/shared/hooks/useColorScheme';
 import { COLORS } from '@/src/shared/theme/colors';
 
 const buttonVariants = cva('flex-row items-center justify-center gap-2', {
