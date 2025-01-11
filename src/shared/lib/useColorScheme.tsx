@@ -42,7 +42,7 @@ function useInitialAndroidBarSync() {
     setNavigationBar(colorScheme).catch((error) => {
       console.error('useColorScheme.tsx", "useInitialColorScheme', error);
     });
-  }, []);
+  }, [colorScheme]);
 }
 
 export { useColorScheme, useInitialAndroidBarSync };
