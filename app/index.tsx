@@ -1,10 +1,11 @@
+import { Button } from "@/components/nativewindui/Button";
 import { Text } from "@/components/nativewindui/Text";
 import { ThemeToggle } from "@/components/nativewindui/ThemeToggle";
-import { SafeAreaView, View } from "react-native";
+import { Linking, SafeAreaView, View } from "react-native";
 
 export default function Index() {
   return (
-    <SafeAreaView className={"flex-1 bg-background"}>
+    <SafeAreaView className={"flex-1 bg-background justify-between"}>
       <View className="px-8 pt-8">
         <View className="header">
           <Text variant="title1" className="font-bold">
@@ -28,11 +29,22 @@ export default function Index() {
           </View>
         </View>
 
-        <View className="toggle-theme mt-12">
-          <Text variant="title3">Try toggle color theme</Text>
+        <View className="toggle-theme flex-row gap-2 items-center mt-12">
+          <Text variant="title3">Try toggle the color theme</Text>
 
           <ThemeToggle />
         </View>
+      </View>
+
+      <View className="footer px-8">
+        <Button
+          variant="secondary"
+          onPress={() => {
+            Linking.openURL("https://github.com/juliozambom");
+          }}
+        >
+          <Text variant="title3">Boilerplate made by @juliozambom</Text>
+        </Button>
       </View>
     </SafeAreaView>
   );

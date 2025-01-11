@@ -1781,6 +1781,11 @@
   dependencies:
     web-streams-polyfill "^3.1.1"
 
+"@rn-primitives/slot@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@rn-primitives/slot/-/slot-1.1.0.tgz#954086820fa71ddcda948e5b2b34c0bfa1cad4d4"
+  integrity sha512-/6LkEPMoGGyJiCAYo3MTCy9letbH6SIm5Dw6wal/ypq3Jvar9llYJstIP2KSZNhx3PmZMN1a581KVgNZ2Jyt5g==
+
 "@roninoss/icons@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@roninoss/icons/-/icons-0.0.4.tgz#8c53aaa5a5c9ae507860e1183303d65934d65a2f"

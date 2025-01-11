@@ -18,6 +18,7 @@
     "@expo/vector-icons": "^14.0.2",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
+    "@rn-primitives/slot": "^1.1.0",
     "@roninoss/icons": "^0.0.4",
     "@shopify/flash-list": "1.7.1",
     "class-variance-authority": "^0.7.1",
