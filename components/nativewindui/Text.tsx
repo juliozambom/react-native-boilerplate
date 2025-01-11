@@ -8,9 +8,11 @@ const textVariants = cva("text-foreground", {
   variants: {
     variant: {
       largeTitle: "text-4xl",
-      title1: "text-2xl",
+      title1: "text-3xl",
       title2: "text-[22px] leading-7",
       title3: "text-xl",
+      subtitle1: "text-lg",
+      subtitle2: "text-md",
       heading: "text-[17px] leading-6 font-semibold",
       body: "text-[17px] leading-6",
       callout: "text-base",
@@ -42,6 +44,7 @@ function Text({
 }: React.ComponentPropsWithoutRef<typeof RNText> &
   VariantProps<typeof textVariants>) {
   const textClassName = React.useContext(TextClassContext);
+
   return (
     <RNText
       className={cn(textVariants({ variant, color }), textClassName, className)}
