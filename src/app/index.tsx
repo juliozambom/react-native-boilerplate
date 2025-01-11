@@ -39,11 +39,14 @@ export default function Index() {
       <View className="footer px-8">
         <Button
           variant="secondary"
+          className="ios:border-foreground"
           onPress={() => {
             Linking.openURL("https://github.com/juliozambom");
           }}
         >
-          <Text variant="title3">Boilerplate made by @juliozambom</Text>
+          <Text variant="title3" className="ios:color-foreground">
+            Boilerplate made by @juliozambom
+          </Text>
         </Button>
       </View>
     </SafeAreaView>

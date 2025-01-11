@@ -1,4 +1,4 @@
-import "../global.css";
+import "../shared/global.css";
 import "expo-dev-client";
 import { StatusBar } from "expo-status-bar";
 import { ThemeProvider as NavThemeProvider } from "@react-navigation/native";
