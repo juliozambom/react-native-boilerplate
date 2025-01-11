@@ -26,6 +26,9 @@ export default function Index() {
             <Text variant="subtitle1">• Expo</Text>
             <Text variant="subtitle1">• Nativewind</Text>
             <Text variant="subtitle1">• NativewindUI</Text>
+            <Text variant="subtitle1">• Eslint</Text>
+            <Text variant="subtitle1">• Prettier</Text>
+            <Text variant="subtitle1">• Husky</Text>
           </View>
         </View>
 
