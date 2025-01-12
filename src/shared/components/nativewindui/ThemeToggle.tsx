@@ -11,6 +11,7 @@ import { COLORS } from '@/src/shared/theme/colors';
 
 export function ThemeToggle() {
   const { colorScheme, setColorScheme } = useColorScheme();
+
   return (
     <LayoutAnimationConfig skipEntering>
       <Animated.View
@@ -26,7 +27,10 @@ export function ThemeToggle() {
         >
           {colorScheme === 'dark'
             ? ({ pressed }) => (
-                <View className={cn('px-0.5', pressed && 'opacity-50')}>
+                <View
+                  testID="icon-moon"
+                  className={cn('px-0.5', pressed && 'opacity-50')}
+                >
                   <Icon
                     namingScheme="sfSymbol"
                     name="moon.stars"
@@ -35,7 +39,10 @@ export function ThemeToggle() {
                 </View>
               )
             : ({ pressed }) => (
-                <View className={cn('px-0.5', pressed && 'opacity-50')}>
+                <View
+                  testID="icon-sun"
+                  className={cn('px-0.5', pressed && 'opacity-50')}
+                >
                   <Icon
                     namingScheme="sfSymbol"
                     name="sun.min"

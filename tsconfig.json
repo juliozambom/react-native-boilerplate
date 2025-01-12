@@ -13,6 +13,10 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+    "jest.config.js",
+    "src/shared/components/nativewindui/ThemeToggle/__tests__/ThemeToggle.test.js",
+    "src/shared/components/nativewindui/__tests__/ThemeToggle-test.js",
+    "src/shared/components/nativewindui/__tests__/ThemeToggle-test.tsx"
   ]
 }
