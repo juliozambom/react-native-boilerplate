@@ -8,7 +8,7 @@ jest.mock('@/src/shared/hooks/useColorScheme', () => ({
 
 const mockedUseColorScheme = useColorScheme as jest.Mock;
 
-describe('Theme Toggle', () => {
+describe('<ThemeToggle />', () => {
   test('displays moon icon icon when colorScheme is dark', () => {
     mockedUseColorScheme.mockReturnValue({
       colorScheme: 'dark',
