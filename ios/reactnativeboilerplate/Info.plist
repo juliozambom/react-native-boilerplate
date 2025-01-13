@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>myapp</string>
-          <string>com.zebstrika.react-native-boilerplate</string>
+          <string>br.com.juliozamboomrnboilerplate</string>
         </array>
       </dict>
       <dict>

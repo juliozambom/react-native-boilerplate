@@ -1,5 +1,5 @@
 {
-  "name": "react-native-boilerplate",
+  "name": "@juliozamboom/react-native-boilerplate",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -75,5 +75,19 @@
     "typescript": "^5.3.3",
     "typescript-eslint": "^8.19.1"
   },
-  "private": true
+  "private": false,
+  "description": "A React Native boilerplate using Expo, NativeWind, NativeWindUI, Eslint, Prettier and Husky ✨",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliozambom/react-native-boilerplate.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Julio Zambom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliozambom/react-native-boilerplate/issues"
+  },
+  "homepage": "https://github.com/juliozambom/react-native-boilerplate#readme"
 }

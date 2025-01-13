@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.zebstrika.react-native-boilerplate"
+      "bundleIdentifier": "br.com.juliozamboomrnboilerplate"
     },
     "android": {
       "adaptiveIcon": {
