@@ -34,7 +34,7 @@ export default function Index() {
         </View>
 
         <View className="toggle-theme flex-row gap-2 items-center mt-12">
-          <Text variant="title3">Try toggle the color theme</Text>
+          <Text variant="title3">Try switching the color theme</Text>
 
           <ThemeToggle />
         </View>
