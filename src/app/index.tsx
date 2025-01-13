@@ -29,6 +29,7 @@ export default function Index() {
             <Text variant="subtitle1">• Eslint</Text>
             <Text variant="subtitle1">• Prettier</Text>
             <Text variant="subtitle1">• Husky</Text>
+            <Text variant="subtitle1">• Jest</Text>
           </View>
         </View>
 
